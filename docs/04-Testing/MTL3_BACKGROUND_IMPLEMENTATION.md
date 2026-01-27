@@ -5,13 +5,13 @@ Integrated 3 NIM teachers into the NLLM system for continuous background learnin
 
 ## Teachers Added
 1. **nvidia/nemotron-3-nano-30b-a3b**
- - API Key: `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`
+ - API Key: removed (configure via environment)
 
 2. **meta/llama-3.1-405b-instruct**
- - API Key: `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`
+ - API Key: removed (configure via environment)
 
 3. **openai/gpt-oss-120b**
- - API Key: `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`
+ - API Key: removed (configure via environment)
 
 ## Key Changes
 

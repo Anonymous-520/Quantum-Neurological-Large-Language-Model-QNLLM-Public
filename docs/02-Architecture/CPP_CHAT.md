@@ -204,13 +204,13 @@ The chat uses the 3 NIM teachers configured with API keys in `chat.cpp`:
 
 ```cpp
 // Nemotron
-"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"
+"<set via NVIDIA_API_KEY_NEMOTRON>"
 
 // Llama
-"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"
+"<set via NVIDIA_API_KEY_LLAMA>"
 
 // GPT-OSS
-"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"
+"<set via NVIDIA_API_KEY_GPT_OSS>"
 ```
 
 ### Agreement Threshold

@@ -227,9 +227,9 @@ teachers:
  max_retries: 2
 
 api_keys:
- nvidia/nemotron-3-nano-30b-a3b: "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"
- meta/llama-3.1-405b-instruct: "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"
- openai/gpt-oss-120b: "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"
+ nvidia/nemotron-3-nano-30b-a3b: "<set via NVIDIA_API_KEY_NEMOTRON>"
+ meta/llama-3.1-405b-instruct: "<set via NVIDIA_API_KEY_LLAMA>"
+ openai/gpt-oss-120b: "<set via NVIDIA_API_KEY_GPT_OSS>"
 
 disagreement:
  encoding_model: "sentence-deterministic processors/all-MiniLM-L6-v2"

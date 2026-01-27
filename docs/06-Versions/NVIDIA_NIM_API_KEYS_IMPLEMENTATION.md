@@ -10,35 +10,35 @@ All NVIDIA NGC API keys have been successfully implemented across the MTL (Multi
 
 ### 1. **Nemotron-3-Nano-30B** 
 - **Environment Variable**: `NVIDIA_API_KEY_NEMOTRON`
-- **API Key**: `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`
+- **API Key**: removed (set via environment)
 - **Model ID**: `nvidia/nemotron-3-nano-30b-a3b`
 - **Purpose**: Fast, efficient processing model for real-time responses
 - **Token Limit**: 512 tokens per response
 
 ### 2. **Qwen-3-Next-80B** 
 - **Environment Variable**: `NVIDIA_API_KEY_QWEN`
-- **API Key**: `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`
+- **API Key**: removed (set via environment)
 - **Model ID**: `qwen/qwen3-next-80b-a3b-thinking`
 - **Purpose**: Advanced reasoning and thinking-based responses
 - **Token Limit**: 512 tokens per response
 
 ### 3. **Llama-3.1-405B** 
 - **Environment Variable**: `NVIDIA_API_KEY_LLAMA`
-- **API Key**: `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`
+- **API Key**: removed (set via environment)
 - **Model ID**: `meta/llama-3.1-405b-instruct`
 - **Purpose**: Powerful, high-quality processing for complex queries
 - **Token Limit**: 512 tokens per response
 
 ### 4. **GPT-OSS-120B** 
 - **Environment Variable**: `NVIDIA_API_KEY_GPT_OSS`
-- **API Key**: `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`
+- **API Key**: removed (set via environment)
 - **Model ID**: `openai/gpt-oss-120b`
 - **Purpose**: Diverse, open-source quality responses
 - **Token Limit**: 512 tokens per response
 
 ### 5. **Primary/Fallback Key** 
 - **Environment Variable**: `NVIDIA_API_KEY`
-- **API Key**: `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`
+- **API Key**: removed (set via environment)
 - **Purpose**: Fallback when model-specific keys not available
 - **Usage**: Used by NVIDIACloudEngine and reasoning systems
 
