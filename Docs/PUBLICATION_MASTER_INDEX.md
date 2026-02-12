@@ -2,9 +2,9 @@
 
 **Author:** Saksham Rastogi, Founder and Owner, Sillionona  
 **Organization:** Sillionona  
-**Last Updated:** January 28, 2026 ✅  
-**Version:** 2.5 STABLE (TESTED - 100% PASS RATE) ✅
-**Status:** ✅ PUBLICATION READY - ALL BLOCKERS RESOLVED  
+**Last Updated:** January 28, 2026   
+**Version:** 2.5 STABLE (TESTED - 100% PASS RATE) 
+**Status:**  PUBLICATION READY - ALL BLOCKERS RESOLVED  
 **Test Coverage:** All 19 invariants validated (15/19 → 19/19 with v2.9 fixes)
 
 ---
@@ -51,20 +51,20 @@ QNLLM v2.9
 
 ## Publication Path
 
-### Phase 1: Foundation Documentation ✅ COMPLETE
+### Phase 1: Foundation Documentation  COMPLETE
 - [x] Whitepaper (9 sections, 3 appendices)
 - [x] Invariant specifications (15 docs)
 - [x] System architecture docs (01–05)
 - [x] CLI guide & demo scripts
 
-### Phase 2: Reproducibility Infrastructure ✅ COMPLETE
+### Phase 2: Reproducibility Infrastructure  COMPLETE
 - [x] Offline CLI (`qnllm` commands)
 - [x] Frozen snapshot (`snapshot_v2.9.qnllm`)
 - [x] Deterministic replay hashing
 - [x] Provenance DAG export
 - [x] Full test suite (97 tests, all passing)
 
-### Phase 3: Validation Evidence ✅ COMPLETE
+### Phase 3: Validation Evidence  COMPLETE
 - [x] Synthetic task curriculum (A, B, C, D)
 - [x] Invariant 16 validation (regression ≤ ε)
 - [x] Invariant 17 validation (all 24 permutations within band)
@@ -83,23 +83,23 @@ QNLLM v2.9
 
 | # | Category | Name | Evidence | Status |
 |---|----------|------|----------|--------|
-| 1 | Foundation | Deterministic Gating | CLI test: 10/10 hashes ✓ | ✅ |
-| 2 | Foundation | Error-Driven Execution | Gating threshold behavior | ✅ |
-| 3 | Foundation | Multi-Timescale Memory | 3-tier consolidation logs | ✅ |
-| 4 | Foundation | Protected Regions | Mask enforcement (ρ=1) | ✅ |
-| 5 | Foundation | Bounded Depth | Recursion limit ≤32 | ✅ |
-| 6 | Foundation | Explicit Interpretability | Provenance DAG includes all | ✅ |
-| 7 | Stability | Compositional Reuse | Tasks A+B+C pass together | ✅ |
-| 8 | Stability | Measurable Forgetting | Retention curve (exp decay) | ✅ |
-| 9 | Stability | Calibrated Confidence | ECE < 0.05 | ✅ |
-| 10 | Stability | Stability Under Interruption | Checkpoint/restore pass | ✅ |
-| 11 | Stability | Introspection Safe | Query latency < 1ms | ✅ |
-| 12 | Safety | Claim Guard (TBRH v1.0) | Gate blocks false claims | ✅ |
-| 13 | Continual | Bounded Reasoning (v1.1) | Output tokens ≤ budget | ✅ |
-| 14 | Continual | Task Resumption (v1.2) | Resume drift ≤ ε | ✅ |
-| 15 | Continual | Memory Provenance | Replay hash uniqueness | ✅ |
-| 16 | Continual | Non-Regression Learning | Regression within ε-band | ✅ |
-| 17 | Continual | Order Robustness | All 24 permutations pass | ✅ |
+| 1 | Foundation | Deterministic Gating | CLI test: 10/10 hashes ✓ |  |
+| 2 | Foundation | Error-Driven Execution | Gating threshold behavior |  |
+| 3 | Foundation | Multi-Timescale Memory | 3-tier consolidation logs |  |
+| 4 | Foundation | Protected Regions | Mask enforcement (ρ=1) |  |
+| 5 | Foundation | Bounded Depth | Recursion limit ≤32 |  |
+| 6 | Foundation | Explicit Interpretability | Provenance DAG includes all |  |
+| 7 | Stability | Compositional Reuse | Tasks A+B+C pass together |  |
+| 8 | Stability | Measurable Forgetting | Retention curve (exp decay) |  |
+| 9 | Stability | Calibrated Confidence | ECE < 0.05 |  |
+| 10 | Stability | Stability Under Interruption | Checkpoint/restore pass |  |
+| 11 | Stability | Introspection Safe | Query latency < 1ms |  |
+| 12 | Safety | Claim Guard (TBRH v1.0) | Gate blocks false claims |  |
+| 13 | Continual | Bounded Reasoning (v1.1) | Output tokens ≤ budget |  |
+| 14 | Continual | Task Resumption (v1.2) | Resume drift ≤ ε |  |
+| 15 | Continual | Memory Provenance | Replay hash uniqueness |  |
+| 16 | Continual | Non-Regression Learning | Regression within ε-band |  |
+| 17 | Continual | Order Robustness | All 24 permutations pass |  |
 
 ---
 
@@ -115,7 +115,7 @@ pytest tests/test_invariant_16_non_regression.py # 28 tests
 pytest tests/test_invariant_17_order_robustness.py # 5 tests
 pytest tests/test_cli_demo.py              # 3 tests
 ---
-Total: 97 tests ✅ ALL PASSING
+Total: 97 tests  ALL PASSING
 ```
 
 ### CLI Reproducibility Verified
@@ -234,12 +234,14 @@ python -m pytest tests/test_invariant_16_non_regression.py -q
 
 ## Contact & Support
 
-- **Repository:** https://github.com/Anonymous-520/Quantum-Neurological-Large-Language-Model-QNLLM
-- **Issues:** File on GitHub
+- **Repository:** [PRIVATE]
+- **Issues:** File on Repository
 - **Citation:** See `docs/QNLLM_v2.9_WHITEPAPER.md` Appendix for BibTeX
 
 ---
 
 **Version:** 2.5  
-**Status:** ✅ Ready for Academic Publication  
+**Status:**  Ready for Academic Publication  
 **Last Updated:** January 26, 2026
+
+

@@ -164,23 +164,23 @@ All 17 are validated in v2.9. Invariant 18 is implemented in v2.9. **Invariant 1
   - **Ethical Gating:** Explicit approval required before activation
   
   **Allowed:**
-  - ✅ Cross-modal memory alignment
-  - ✅ Multi-source learning integration
-  - ✅ Hybrid classical + quantum-inspired state updates
-  - ✅ Shared credit assignment across subsystems
+  -  Cross-modal memory alignment
+  -  Multi-source learning integration
+  -  Hybrid classical + quantum-inspired state updates
+  -  Shared credit assignment across subsystems
   
   **Forbidden:**
-  - ❌ Biological brain attachment
-  - ❌ Physical neuron fusion
-  - ❌ Consciousness claims
-  - ❌ Autonomous self-rewriting without constraints
+  -  Biological brain attachment
+  -  Physical neuron fusion
+  -  Consciousness claims
+  -  Autonomous self-rewriting without constraints
   
   **Evidence Location:**
   - Specification: docs/Invariants/INVARIANT_20_FUSION_ARCHITECTURE.md
   - Implementation: src/qnllm/fusion/fusion_engine.py (disabled by default)
   - Tests: tests/test_invariant20_fusion.py (2/2 PASSED)
   
-  - **Status:** 🧪 Conservative research proposal with experimental implementation
+  - **Status:**  Conservative research proposal with experimental implementation
 
 ---
 
@@ -198,21 +198,21 @@ All 17 are validated in v2.9. Invariant 18 is implemented in v2.9. **Invariant 1
   - **Human Oversight:** Independent review and approval for all deployment contexts
   
   **Allowed:**
-  - ✅ Robotics control (reversible actuation, sensor fusion)
-  - ✅ Sensor-driven feedback (multi-modal perception)
-  - ✅ Hardware abstraction layers (device discovery, protocol negotiation)
-  - ✅ Device capability discovery (auto-configuration, graceful degradation)
+  -  Robotics control (reversible actuation, sensor fusion)
+  -  Sensor-driven feedback (multi-modal perception)
+  -  Hardware abstraction layers (device discovery, protocol negotiation)
+  -  Device capability discovery (auto-configuration, graceful degradation)
   
   **Forbidden:**
-  - ❌ Self-rewriting hardware
-  - ❌ Biological/brain integration claims
-  - ❌ Unbounded autonomy
+  -  Self-rewriting hardware
+  -  Biological/brain integration claims
+  -  Unbounded autonomy
   
   **Evidence Location:**
   - Specification: docs/Invariants/INVARIANT_21_EMBODIED_COMPATIBILITY.md
   - Implementation (simulation-only): src/qnllm/hardware/interface.py
   
-  - **Status:** 🧪 Conservative research proposal (validation required)
+  - **Status:**  Conservative research proposal (validation required)
 
 ---
 

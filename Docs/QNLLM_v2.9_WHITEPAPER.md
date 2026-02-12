@@ -158,10 +158,10 @@ QNLLM v2.9 includes **two experimental invariants** with conservative safety bou
 - No uncontrolled parameter growth
 
 **What it is NOT:**
-- ❌ Biological brain attachment
-- ❌ Physical neuron fusion
-- ❌ Consciousness or sentience
-- ❌ Autonomous self-rewriting without constraints
+-  Biological brain attachment
+-  Physical neuron fusion
+-  Consciousness or sentience
+-  Autonomous self-rewriting without constraints
 
 **Implementation:** Experimental (disabled by default), tests passing (2/2)
 
@@ -178,14 +178,14 @@ QNLLM v2.9 includes **two experimental invariants** with conservative safety bou
 - Explicit authorization gates and audit trails
 
 **Allowed:**
-- ✅ Robotics control (reversible actuation, sensor fusion)
-- ✅ Sensor-driven feedback (multi-modal perception)
-- ✅ Hardware abstraction layers (device discovery)
+-  Robotics control (reversible actuation, sensor fusion)
+-  Sensor-driven feedback (multi-modal perception)
+-  Hardware abstraction layers (device discovery)
 
 ** Forbidden:**
-- ❌ Self-rewriting hardware
-- ❌ Biological/brain integration
-- ❌ Unbounded autonomy
+-  Self-rewriting hardware
+-  Biological/brain integration
+-  Unbounded autonomy
 
 **Implementation:** Simulation-only, tests passing (3/3)
 
@@ -368,8 +368,8 @@ We created a task curriculum on synthetic data:
 **Result:**
 | Task | Baseline | After B | Drift | Band | Pass? |
 |------|----------|---------|-------|------|-------|
-| A    | 0.10     | 0.105   | 0.005 | 0.05 | ✅    |
-| B    | 0.12     | 0.115   | 0.005 | 0.06 | ✅    |
+| A    | 0.10     | 0.105   | 0.005 | 0.05 |     |
+| B    | 0.12     | 0.115   | 0.005 | 0.06 |     |
 
 Regression checker allowed B to be learned because drift stayed within bounds.
 
@@ -380,9 +380,9 @@ Regression checker allowed B to be learned because drift stayed within bounds.
 **Result:**
 | Permutation | A Error | B Error | C Error | D Error | Max Drift | Pass? |
 |-------------|---------|---------|---------|---------|-----------|-------|
-| A→B→C→D    | 0.105   | 0.115   | 0.082   | 0.151   | 0.005     | ✅    |
-| B→A→C→D    | 0.101   | 0.120   | 0.081   | 0.150   | 0.002     | ✅    |
-| (... 22 more) | ...   | ...     | ...     | ...     | ...       | ✅    |
+| A→B→C→D    | 0.105   | 0.115   | 0.082   | 0.151   | 0.005     |     |
+| B→A→C→D    | 0.101   | 0.120   | 0.081   | 0.150   | 0.002     |     |
+| (... 22 more) | ...   | ...     | ...     | ...     | ...       |     |
 
 **Worst-case deviation:** 0.007 (well within ε_band of 0.05).  
 **Conclusion:** Learning is order-stable; no hidden ordering requirements.
@@ -452,13 +452,13 @@ The snapshot (`snapshot_v2.9.qnllm`) is a checkpoint of learning laws and gate p
 ### 7.2 What QNLLM Is Not
 
 **QNLLM does NOT claim to be:**
-- ❌ A large-scale text generation model (not competing with GPT-4, Claude, Gemini)
-- ❌ A foundation model trained on trillions of tokens
-- ❌ A biological system or brain simulator
-- ❌ A physical quantum computer (all "quantum-inspired" mechanisms are deterministic mathematical simulations)
-- ❌ An artificial general intelligence (AGI)
-- ❌ A conscious, sentient, or self-aware system
-- ❌ A system with unbounded autonomy or self-modification
+-  A large-scale text generation model (not competing with GPT-4, Claude, Gemini)
+-  A foundation model trained on trillions of tokens
+-  A biological system or brain simulator
+-  A physical quantum computer (all "quantum-inspired" mechanisms are deterministic mathematical simulations)
+-  An artificial general intelligence (AGI)
+-  A conscious, sentient, or self-aware system
+-  A system with unbounded autonomy or self-modification
 
 **QNLLM does NOT compete with:**
 - Large language models on raw text generation quality
@@ -540,10 +540,10 @@ We leave this for future work but provide the CLI infrastructure to enable it.
 ### 9.3 Path to Publication
 
 This preprint demonstrates:
-1. ✅ Formal framework (17 invariants, TBRH v1.2, provenance tracking).
-2. ✅ Reproducible experiments (synthetic task curriculum).
-3. ✅ Open-source CLI artifact (offline, deterministic).
-4. ✅ Audit trail (provenance DAG, replay hash).
+1.  Formal framework (17 invariants, TBRH v1.2, provenance tracking).
+2.  Reproducible experiments (synthetic task curriculum).
+3.  Open-source CLI artifact (offline, deterministic).
+4.  Audit trail (provenance DAG, replay hash).
 
 Next steps:
 - [ ] Peer review feedback.
@@ -649,6 +649,7 @@ qnllm audit $OUTPUT_ID | jq '.provenance_graph'
 ---
 
 **Corresponding Author:** Saksham Rastogi (Founder and Owner, Sillionona)  
-**Code & Artifacts:** https://github.com/Anonymous-520/Quantum-Neurological-Large-Language-Model-QNLLM  
+**Code & Artifacts:** [PRIVATE]  
 **License:** MIT  
 **Last Updated:** January 26, 2026
+
